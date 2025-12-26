@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  height: 75vh;
+  width: 95vw;
+  background-color: #ffaa00;
+  border-radius: 1.5rem;
+}
+
+.title {
+  background-color: #ffaa00;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  font-size: 1.5rem;
+  padding-top: .7rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color:#fff;
+}
